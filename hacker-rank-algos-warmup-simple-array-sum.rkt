@@ -1,7 +1,6 @@
 #lang racket
 
-;; <a href=“https://www.hackerrank.com/challenges/simple-array-sum">
-;;[I'm an inline-style link with title](https://www.google.com "Google's Homepage")
+;; https://www.hackerrank.com/challenges/simple-array-sum
 
 (define (simple-array-sum n sum)
   (if (> n 0)
