@@ -2,6 +2,9 @@
 
 ;; https://www.hackerrank.com/challenges/plus-minus
 
+;; I used a structure as a convenient way to return all three counts so that I can recursively process the 
+;; entire list in one pass while reading it in.
+
 (define-struct counts (p n z) #:transparent)
 
 (define (plus-minus-zero n tc)
