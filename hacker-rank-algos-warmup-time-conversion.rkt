@@ -1,5 +1,9 @@
 #lang racket
 
+;; https://www.hackerrank.com/challenges/time-conversion
+
+;; pora = P(M) or A(AM)
+
 (let ([hh (+ (* (- (read-byte) 48) 10) (- (read-byte) 48))])
   (read-char)
   (let ([mm (+ (* (- (read-byte) 48) 10) (- (read-byte) 48))])
