@@ -4,7 +4,8 @@
 
 ;; Solution looks complicated.  I designed the solution to fill in a vector 
 ;; in the shifted order while reading the input in so as to only process each 
-;; piece of date one time.
+;; piece of date one time.  c is the current position I'm reading in and k is 
+;; the number of positions to rotate.
 
 (define (fill-vector n k c v)
   (cond
