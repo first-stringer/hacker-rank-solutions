@@ -1,5 +1,11 @@
 #lang racket
 
+;; https://www.hackerrank.com/challenges/circular-array-rotation
+
+;; Solution looks complicated.  I designed the solution to fill in a vector 
+;; in the shifted order while reading the input in so as to only process each 
+;; piece of date one time.
+
 (define (fill-vector n k c v)
   (cond
     [(= c n) v]
