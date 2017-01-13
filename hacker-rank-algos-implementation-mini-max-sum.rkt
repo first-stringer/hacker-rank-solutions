@@ -1,5 +1,7 @@
 #lang racket
 
+;; https://www.hackerrank.com/challenges/mini-max-sum
+
 (define lst (cons (read) (cons (read) (cons (read) (cons (read) (cons (read) '()))))))
 
 (define sorted-lst (sort lst <))
@@ -8,3 +10,4 @@
 (define maxi (for/sum ([i (cdr sorted-lst)]) i))
 
 (fprintf (current-output-port) "~a ~a~n" mini maxi)
+
