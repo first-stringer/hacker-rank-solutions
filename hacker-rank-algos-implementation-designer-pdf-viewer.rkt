@@ -1,5 +1,7 @@
 #lang racket
 
+;; https://www.hackerrank.com/challenges/designer-pdf-viewer 
+
 (define (read-heights n)
   (if (> n 0)
     (cons (read) (read-heights (- n 1)))
