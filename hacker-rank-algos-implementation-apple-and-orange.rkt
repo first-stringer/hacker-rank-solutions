@@ -1,5 +1,7 @@
 #lang racket
 
+;; https://www.hackerrank.com/challenges/apple-and-orange
+
 (define s (read))
 (define t (read))
 (define a (read))
