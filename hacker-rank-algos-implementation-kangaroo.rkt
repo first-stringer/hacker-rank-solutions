@@ -1,5 +1,7 @@
 #lang racket
 
+;; https://www.hackerrank.com/challenges/kangaroo
+
 (define (check-positions x1 v1 x2 v2)
   (cond
     [(= x1 x2) "YES"]
