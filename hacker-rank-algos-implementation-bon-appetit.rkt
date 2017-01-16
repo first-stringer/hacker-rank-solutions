@@ -1,5 +1,7 @@
 #lang racket
 
+;; https://www.hackerrank.com/challenges/bon-appetit
+
 (define n (read))
 (define k (read))
 
