@@ -1,5 +1,7 @@
 #lang racket
 
+;; https://www.hackerrank.com/challenges/divisible-sum-pairs
+
 (define n (read))
 (define k (read))
 
