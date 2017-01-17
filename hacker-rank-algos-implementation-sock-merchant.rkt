@@ -1,5 +1,7 @@
 #lang racket
 
+;; https://www.hackerrank.com/challenges/sock-merchant
+
 (define (process-input n st)
   (if (= n 0)
     0 
