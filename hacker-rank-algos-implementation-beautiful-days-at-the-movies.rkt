@@ -1,5 +1,7 @@
 #lang racket
 
+;; https://www.hackerrank.com/challenges/beautiful-days-at-the-movies
+
 (define (my-reverse-helper x y)
   (if (= x 0)
     y
