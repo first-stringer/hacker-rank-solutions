@@ -1,5 +1,7 @@
 #lang racket
 
+;; https://www.hackerrank.com/challenges/save-the-prisoner
+
 (define (process-input nt)
   (when (> nt 0)
     (let* ([n (read)]
