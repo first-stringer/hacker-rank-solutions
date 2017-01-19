@@ -1,5 +1,7 @@
 #lang racket
 
+;; https://www.hackerrank.com/challenges/strange-advertising
+
 (define (sum-ad-likers i m n)
   (if (> i n)
     0
