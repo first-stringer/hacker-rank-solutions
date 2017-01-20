@@ -1,5 +1,7 @@
 #lang racket
 
+;; https://www.hackerrank.com/challenges/find-digits
+
 (define (process-number n lst)
   (if (empty? lst)
     0
