@@ -1,5 +1,7 @@
 #lang racket
 
+;; https://www.hackerrank.com/challenges/extra-long-factorials
+
 (define (my-factorial x)
   (if (= x 0)
     1
