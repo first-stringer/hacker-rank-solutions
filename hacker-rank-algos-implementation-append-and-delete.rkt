@@ -1,5 +1,7 @@
 #lang racket
 
+;; https://www.hackerrank.com/challenges/append-and-delete
+
 (define s1st (string->list (read-line)))
 (define s2st (string->list (read-line)))
 (define k (string->number (read-line)))
