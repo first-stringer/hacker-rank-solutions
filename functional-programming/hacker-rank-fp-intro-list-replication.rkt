@@ -1,5 +1,7 @@
 #lang racket
 
+;; https://www.hackerrank.com/challenges/fp-list-replication
+
 (define (add-to-list times number)
   (if (<= times 0) 
     '()
