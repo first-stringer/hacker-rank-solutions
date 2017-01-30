@@ -1,5 +1,7 @@
 #lang racket
 
+;; https://www.hackerrank.com/challenges/fp-filter-positions-in-a-list
+
 (define (get-all-input) 
   (let ([line (read-line)]) 
     (if (non-empty-string? line) 
