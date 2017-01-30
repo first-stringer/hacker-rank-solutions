@@ -1,5 +1,7 @@
 #lang racket
 
+;; https://www.hackerrank.com/challenges/fp-filter-array
+
 (define (filter-array limit)
   (let ([line (read-line)]) 
     (if (non-empty-string? line) 
